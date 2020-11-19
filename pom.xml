@@ -18,4 +18,13 @@
 		  </plugin>
 	</plugins>
   </build>
+
+  <distributionManagement>
+	<snapshotRepository>
+		<id>full_pipeline</id>
+		<name>full_pipeline</name>
+		<url>http://localhost:8081/repository/full_pipeline/</url>
+	</snapshotRepository>
+  </distributionManagement>
+
 </project>

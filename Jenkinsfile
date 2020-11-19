@@ -19,11 +19,11 @@ pipeline{
                 sh "mvn package"
             }
         }
-        // stage('Deploy'){
-        //     steps{
-        //         echo "Deploy Stage"
-        //         mvn deploy
-        //     }
-        // }
+        stage('Deploy'){
+            steps{
+                echo "Deploy Stage"
+                mvn deploy
+            }
+        }
     }
 }
